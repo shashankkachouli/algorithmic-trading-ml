@@ -1,0 +1,18 @@
+venv/
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# Large/generated datasets
+data/walk_forward_data.csv
+
+# Intermediate model predictions
+data/test_predictions.csv
+data/validation_predictions.csv
+data/v4_test_predictions.csv
+data/v4_validation_predictions.csv
